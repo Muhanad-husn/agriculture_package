@@ -85,7 +85,7 @@ def set_arabic_long(ax, trees_dict, title, xlabel, ylabel):
     ar_ylabel = ar_text(ylabel)
     
     # Set the processed texts on the Axes object
-    ax.set_title(ar_title, y= 1.1)
+    ax.set_title(ar_title, y= 1.05)
     ax.set_xlabel(ar_xlabel)
     ax.set_ylabel(ar_ylabel)
     
