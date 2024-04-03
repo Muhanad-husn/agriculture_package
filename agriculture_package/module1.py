@@ -133,6 +133,7 @@ def my_plot_start(figsize=(10, 8), style='darkgrid', context='notebook',
     
     return fig, ax
 
+
 def my_plot_end(ax, title=None, xlabel=None, ylabel=None, xticks_rot=0, 
                 yticks_rot=0, save_figure=False, filename='plot.jpg'):
     """
