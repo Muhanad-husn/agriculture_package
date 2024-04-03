@@ -1,4 +1,8 @@
+import pandas as pd
 import seaborn as sns
+import matplotlib.pypplot as plt
+from arabic_reshaper import arabic_reshaper
+from bidi.algorithm import get_display
 
 def ar_text(text):
     """
@@ -14,8 +18,6 @@ def ar_text(text):
     Returns:
     str: The processed text string ready for display in non-Arabic script supporting environments.
     """
-    from arabic_reshaper import arabic_reshaper
-    from bidi.algorithm import get_display
     # Reshape the Arabic text to handle characters connection correctly
     reshaped_text = arabic_reshaper.reshape(text)
     # Apply the BiDi algorithm to ensure correct display order
