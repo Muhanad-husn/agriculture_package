@@ -1,6 +1,6 @@
 import pandas as pd
 import seaborn as sns
-import matplotlib.pypplot as plt
+import matplotlib.pyplot as plt
 from arabic_reshaper import arabic_reshaper
 from bidi.algorithm import get_display
 import re
