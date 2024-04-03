@@ -1,3 +1,5 @@
+import seaporn as sns
+
 def ar_text(text):
     """
     Convert Arabic text to a format suitable for display in environments that do not support Arabic script natively.
