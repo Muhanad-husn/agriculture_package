@@ -7,9 +7,13 @@ setup(
     description="Functions used in the agriculture project",
     author="Muhanad Abulhusn",
     author_email="muhanad.a.husn@gmail.com",
-    url="https://github.com/yourusername/my_package",
+    url="https://github.com/Muhanad-husn/agriculture_package.git",
     install_requires=[
-        # List your project dependencies here.
-        # For example: "requests>=2.22.0"
+        "pandas",
+        "numpy",
+        "matplotlib",
+        "seaborn",
+        "arabic_reshaper",
+        "python-bidi"
     ],
 )
