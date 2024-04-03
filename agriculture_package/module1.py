@@ -93,6 +93,7 @@ def set_arabic_long(ax, trees_dict, title, xlabel, ylabel):
     
     # Set the new x-axis tick labels
     ax.set_yticklabels(ar_yticks)
+    
 
 def my_plot_start(figsize=(10, 8), style='darkgrid', context='notebook',
                   grid_color='grey', grid_linestyle='-.', subtitle= None):
