@@ -1,4 +1,4 @@
-import seaporn as sns
+import seaborn as sns
 
 def ar_text(text):
     """
