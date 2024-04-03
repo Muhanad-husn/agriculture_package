@@ -3,6 +3,7 @@ import seaborn as sns
 import matplotlib.pypplot as plt
 from arabic_reshaper import arabic_reshaper
 from bidi.algorithm import get_display
+import re
 
 def ar_text(text):
     """
